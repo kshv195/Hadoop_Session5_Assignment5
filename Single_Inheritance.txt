@@ -1,0 +1,29 @@
+Single Inheritance
+---------------------
+
+package packag1
+
+class Guest {
+  
+  var Payment = 25000
+}
+
+
+class Guest2 extends Guest{
+  var Amount:Int = 5000
+  println("Payment = " +Payment)
+  println("Amount = " +Amount)
+  
+}
+
+object Main extends App{
+  
+  new Guest2()
+  
+}
+
+
+Output
+------------------
+Payment = 25000
+Amount = 5000
